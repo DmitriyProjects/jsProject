@@ -10,3 +10,10 @@ let personalMovieDB = {
   genres: [],
   privat: false
 };
+
+let filmName = prompt("Один из последних просмотренных фильмов?", "");
+let filmMark = prompt("На сколько оцените его?", "");
+
+personalMovieDB.movies = {
+  filmName : filmMark
+};
