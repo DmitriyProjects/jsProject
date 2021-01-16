@@ -1,4 +1,5 @@
 {
+  "strict": "global",
 	"camelcase" : true,
 	"indent": 2,
 	"undef": true,
@@ -6,7 +7,6 @@
 	"maxlen": 150,
 	"trailing": true,
 	"curly": true,
-	"strict": false,
 	"browser": true,
 	"devel": true,
 	"jquery": true,
